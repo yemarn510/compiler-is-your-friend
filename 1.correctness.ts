@@ -7,4 +7,7 @@ The function will do as follows.
 Given a string as an input, find the index of the string "Script" within the input string. 
 
 You can use Google to look up the method calls.
+
+Questions:
+1) How to ensure that the input is a string at compile time?
 */

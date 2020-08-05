@@ -16,13 +16,13 @@ Questions:
 1) What did you learn from this exercise?
 */
 class SafeDivisor {
-    divisor: number = 1;
+    public divisor: number = 1;
 
     setDivisor(value: number) {
         if (value == 0) {
             throw new Error("Value should not be 0");
         }
-        this.divisor = value; 
+        this.divisor = value;
     }
 
     divide(x: number): number { 
@@ -34,5 +34,5 @@ function exploit(): number {
     let sd = new SafeDivisor();
 
     sd.divisor = 0;
-    return sd.divide(42); 
+    return sd.divide(42);
 }

@@ -5,8 +5,7 @@ The function below is a "safe divide" function. That is, it promises not to thro
 
 Questions:
 1) Spot and describe the bug that causes the "divide by zero" to occur.
-2) Now, change the code such that the bug can be spotted by the compiler at *compile time*.
-
+2) Now, make a *single* code change such that the bug can be spotted by the compiler at *compile time*.
 */
 function safeDivide(): number {
     let x: number = 42;

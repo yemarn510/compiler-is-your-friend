@@ -11,6 +11,9 @@ will explode.
 Make a *single* code change such that the compiler will prevent him from bypassing
 the encapsulation. In other words, he will need to call the `setDivisor()` method 
 to set the `divisor` member variable.
+
+Questions:
+1) What did you learn from this exercise?
 */
 class SafeDivisor {
     divisor: number = 1;
